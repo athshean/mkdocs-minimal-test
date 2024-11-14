@@ -1,0 +1,14 @@
+site_name: My Docs
+site_url: https://athshean.github.io/mysite
+repo_url: https://github.com/athshean/mkdocs-minimal-test
+theme:
+  name: material
+
+plugins:
+  - git-committers:
+      repository: athshean/mkdocs-minimal-test
+      branch: main
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+      enable_creation_date: true
+  - search:
